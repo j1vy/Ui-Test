@@ -1,16 +1,16 @@
 --// ======= THEME =========
 local THEME = {
-    FrameBg        = Color3.fromRGB(38, 42, 56),   
-    FrameBg2       = Color3.fromRGB(48, 52, 68),   
-    Accent         = Color3.fromRGB(0, 180, 255),  
-    AccentHover    = Color3.fromRGB(0, 205, 255),
-    TabIdle        = Color3.fromRGB(70, 90, 130),
-    TabActive      = Color3.fromRGB(0, 180, 255),
-    ToggleBg       = Color3.fromRGB(60, 64, 80),
-    ToggleHover    = Color3.fromRGB(70, 74, 95),
-    ToggleOffTrack = Color3.fromRGB(120, 120, 120),
-    ToggleOnTrack  = Color3.fromRGB(0, 200, 150),
-    TextLight      = Color3.fromRGB(240, 240, 240),
+    FrameBg        = Color3.fromRGB(63, 63, 63),   
+    FrameBg2       = Color3.fromRGB(71, 71, 71),   
+    Accent         = Color3.fromRGB(5, 5, 5),  
+    AccentHover    = Color3.fromRGB(33, 33, 33),
+    TabIdle        = Color3.fromRGB(130, 130, 130),
+    TabActive      = Color3.fromRGB(209, 209, 209),
+    ToggleBg       = Color3.fromRGB(91, 91, 91),
+    ToggleHover    = Color3.fromRGB(100, 100, 100),
+    ToggleOffTrack = Color3.fromRGB(180, 180, 180),
+    ToggleOnTrack  = Color3.fromRGB(110, 110, 110),
+    TextLight      = Color3.fromRGB(255, 255, 255),
     TitleText      = Color3.fromRGB(255, 255, 255),
 }
 
@@ -64,7 +64,7 @@ shadow.Parent = mainFrame
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 32)
 title.BackgroundColor3 = THEME.Accent
-title.Text = "  YT FaDhenGaming"
+title.Text = "  Unknown Hub"
 title.Font = Enum.Font.GothamBold
 title.TextSize = 14
 title.TextXAlignment = Enum.TextXAlignment.Left
@@ -231,7 +231,7 @@ end)
 local toggleBtn = Instance.new("ImageButton", gui)
 toggleBtn.Size = UDim2.new(0, 55, 0, 55)
 toggleBtn.Position = UDim2.new(0, 10, 0.2, 0)
-toggleBtn.Image = "rbxassetid://121962590520433"
+toggleBtn.Image = "rbxassetid://77218168300511"
 toggleBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 toggleBtn.BackgroundTransparency = 0.7
 toggleBtn.Active = true
