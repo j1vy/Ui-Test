@@ -75,7 +75,7 @@ Instance.new("UICorner", title).CornerRadius = UDim.new(0, 12)
 local titleGradient = Instance.new("UIGradient")
 titleGradient.Color = ColorSequence.new{
     ColorSequenceKeypoint.new(0, THEME.Accent),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(140, 60, 255))
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
 }
 titleGradient.Rotation = 80
 titleGradient.Parent = title
@@ -231,7 +231,7 @@ end)
 local toggleBtn = Instance.new("ImageButton", gui)
 toggleBtn.Size = UDim2.new(0, 55, 0, 55)
 toggleBtn.Position = UDim2.new(0, 10, 0.2, 0)
-toggleBtn.Image = "rbxassetid://77218168300511"
+toggleBtn.Image = "rbxassetid://502885708"
 toggleBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 toggleBtn.BackgroundTransparency = 0.7
 toggleBtn.Active = true
